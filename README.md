@@ -5,11 +5,12 @@
 Este repositorio técnico documenta el desarrollo, implementación y seguimiento del **Convenio para la Cualificación y Fortalecimiento Institucional en Educación Inicial**, suscrito entre:
 - **Secretaría de Educación del Distrito (SED)**
 - **Secretaría Distrital de Integración Social (SDIS)**
-- **Entidad aliada (ESAL) de reconocida idoneidad**
+- **United Way Colombia**
 
-Su propósito es asegurar la sistematización, trazabilidad y archivo programático de todos los productos, actividades y evidencias, en cumplimiento del **Sistema Distrital de Aseguramiento de la Calidad de la Atención Integral a la Primera Infancia**.
+Su propósito es asegurar la sistematización, trazabilidad y archivo programático de todos los productos, actividades y evidencias, en cumplimiento del "Sistema Distrital de Aseguramiento de la Calidad de la Atención Integral a la Primera Infancia".
 
-Este repositorio se organiza según los **tres ejes misionales del convenio**: 
+Este repositorio se organiza según los tres ejes misionales del convenio: 
+
 1. Construcción de lineamientos, orientaciones y guías técnicas. 
 2. Acompañamiento situado a las IED focalizadas. 
 3. Evaluación de resultados.
