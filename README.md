@@ -2,7 +2,8 @@
 # Convenio para el Fortalecimiento de la Educación Inicial en Instituciones Educativas Distritales de Bogotá
 
 ## Descripción General
-Este repositorio técnico documenta el desarrollo, implementación y seguimiento del **Convenio para la Cualificación y Fortalecimiento Institucional en Educación Inicial**, suscrito entre:
+Este repositorio técnico documenta el desarrollo, implementación y seguimiento del Convenio para la Cualificación y Fortalecimiento Institucional en Educación Inicial, suscrito entre:
+
 - **Secretaría de Educación del Distrito (SED)**
 - **Secretaría Distrital de Integración Social (SDIS)**
 - **United Way Colombia**
