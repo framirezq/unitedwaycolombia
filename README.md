@@ -57,10 +57,10 @@ EJE2_Acompanamiento_Situado/
 │   └── Reportes_Mensuales/
 │
 └── IED/
-    ├── IED_001/
-    ├── IED_002/
+    ├── IED_CODDANE/
+    ├── IED_CODDANE/
     ├── ...
-    └── IED_095/
+    └── IED_CODDANE/
 ```
 
 ### ** EJE 3 – Evaluación de Resultados**
@@ -102,14 +102,14 @@ Administracion_Convenio/
 Documentacion/
 │   ├── Anexo_Tecnico.pdf
 │   ├── Marco_Normativo/
-│   ├── Plan_Distrital_2024_2027/
-│   └── Metodologias_Transversales/
+│   ├── 
+│   └── 
 ```
 
 ---
 
 ## Protocolo de Versionamiento
-Todos los documentos deben registrar su evolución usando la siguiente convención:
+Todos los documentos registran su evolución usando la siguiente convención:
 
 ```
 NombreDocumento_V1_YYYY-MM-DD.ext
