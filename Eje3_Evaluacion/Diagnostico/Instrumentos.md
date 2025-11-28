@@ -191,3 +191,206 @@ El formulario incluye un consentimiento informado que autoriza el tratamiento de
 
 ---
 
+# Instrumento de Observación a la Calidad Pedagógica en Escenarios de Educación Inicial
+
+**URL:** https://ee-eu.kobotoolbox.org/x/2W2M6BqR  
+**Formato:** XLSForm (KoboToolbox / ODK / Enketo)  
+**Versión:** 15.1 (actualización de sedes y códigos de institución)  
+**Fecha de creación:** 2025
+
+---
+
+## Objetivo
+Unificar y evaluar los criterios mínimos de calidad pedagógica en prejardín, jardín y transición mediante observación estructurada de:
+- Planeación y estrategias pedagógicas (5 criterios)
+- Ambientes de aprendizaje (5 criterios)
+- Desarrollo del lenguaje y experiencias comunicativas – EOLE (8 criterios)
+
+---
+
+## Estructura del formulario
+
+| Grupo | Nombre del grupo | Descripción |
+|-------|------------------|-------------|
+| 1 | Aviso Importante | Uso exclusivo acompañantes UWC |
+| 2 | Descripción | Objetivo y alcance |
+| 3 | Información general de la observación | Localidad, IED, sede, fecha, docente, observador |
+| 4 | Componente 1 – Planeación y estrategias pedagógicas | 5 criterios (1.1 – 1.5) |
+| 5 | Componente 2 – Ambientes | 5 criterios (2.1 – 2.5) |
+| 6 | Componente 3 – EOLE | 8 criterios (3.1 – 3.8) |
+| 7 | Comentarios/Observaciones adicionales | Campo abierto |
+
+---
+
+## Resumen técnico
+
+| Elemento | Cantidad |
+|----------|----------|
+| **Variables totales** | 58 |
+| **Preguntas abiertas** | 19 (descripciones + comentarios) |
+| **select_one** | 39 |
+| **select_multiple** | 0 |
+| **Grupos lógicos** | 7 |
+| **Criterios evaluativos** | 18 |
+| **Condicionales** | ~25 (sedes según institución; algunas sedes nuevas con relevancia condicional) |
+
+---
+
+## Principales bloques de variables
+
+### Información general
+| Variable | Tipo | Obligatoria | Notas |
+|----------|------|-------------|-------|
+| Localidad | select_one | ✅ | 20 opciones |
+| Institución Educativa | select_one | ✅ | Filtrada por localidad |
+| Sede Educativa | select_one | ✅ | Filtrada por institución; **nuevos códigos y sedes** en esta versión |
+| Fecha | date | ❌ | |
+| Número de visita | integer | ❌ | |
+| Aula observada | texto | ❌ | |
+| Nombre docente | texto | ✅ | |
+| Tipo y número de documento del docente | texto + select_one | ✅ | |
+| Contacto docente | texto (númerico) | ✅ | |
+| Nombre y documento del observador | texto + numérico | ✅ | |
+
+### Criterios evaluativos (18)
+Cada criterio incluye:
+- `Descripci_n_situaci_l_frente_al_criterio_XXX` → **texto abierto**
+- `Resultado_XXX` → **select_one**: “Se evidencia” / “No se evidencia”
+
+**Componentes:**
+1. **Planeación y estrategias pedagógicas** (5 criterios)
+2. **Ambientes** (5 criterios)
+3. **EOLE** (8 criterios)
+
+---
+
+## Cambios respecto a Versión 1
+- **Nuevas sedes** agregadas con códigos únicos (ej. `pl0sy93`, `ry4ra66`, `lj1op20`, etc.)
+- **Relaciones condicionales** actualizadas para estas sedes:
+  - `Nombre_de_la_sede_Educativa_098` → solo si `${Nombre_de_la_Instituci_n_Educativa4} = '111001024686'`
+  - `099` → `111001014451`
+  - `100` → `111001014176`
+  - `101` → `111001024643`
+  - `102` → `111001011975`
+  - `103` → `111001009831`
+- **Opciones de sede “maria” y “luz”** se mantienen para `tv72t8`
+- **Listas de opciones** (`choices`) actualizadas con etiquetas descriptivas y códigos DANE/IED
+
+---
+
+## Uso técnico
+- Compatible con **KoboToolbox**, **ODK Collect**, **Enketo**
+- **Acceso restringido**: solo acompañantes pedagógicos o artistas de **UWC**
+- No incluye consentimiento dentro del formulario (se asume previo institucional)
+
+---
+
+## Archivos asociados
+`Versión 2 Instrumento de Observación a la Calidad Pedagógica en escenarios de educación inicial.xlsx`
+- Hoja `survey` → estructura completa
+- Hoja `choices` → listas localidad, instituciones, sedes, resultados
+
+---
+
+# Instrumento de Fotografía de Ambientes de Aprendizaje
+
+**URL:** https://ee-eu.kobotoolbox.org/x/AepjN70u  
+**Formato:** XLSForm (KoboToolbox / ODK / Enketo)  
+**Versión:** 22.0  
+**Fecha de creación:** 2025  
+
+---
+
+## Objetivo
+Capturar evidencias fotográficas de los ambientes de aprendizaje de prejardín, jardín y transición que permitan analizar:  
+- Organización y funcionalidad del espacio  
+- Disponibilidad y estado de materiales  
+- Presencia de elementos culturales, lúdicos y de literacidad 
+---
+
+## Estructura del formulario
+
+| Grupo | Nombre del grupo | Descripción breve |
+|-------|------------------|-------------------|
+| 1 | Aviso Importante | Uso exclusivo acompañantes UWC |
+| 2 | Descripción | Objetivo y alcance |
+| 3 | Información general | Localidad → IED → sede → fecha → grado → docente |
+| 4 | Fotografías | 8 tomas estándar + 2 opcionales |
+| 5 | Comentarios | Espacio abierto |
+
+---
+
+## Resumen técnico
+
+| Elemento | Cantidad |
+|----------|----------|
+| **Variables totales** | 25 |
+| **Fotos obligatorias** | 8 |
+| **Fotos opcionales** | 2 |
+| **select_one** | 5 |
+| **date** | 1 |
+| **text** (abierto) | 5 |
+| **image** | 10 |
+| **Grupos lógicos** | 5 |
+| **Condicionales** | ~20 (sedes según institución) |
+
+---
+
+## Variables principales
+
+| Variable | Tipo | Obligatoria | Hint / Uso |
+|----------|------|-------------|------------|
+| Localidad | select_one | ✅ | 20 localidades |
+| Institución | select_one | ✅ | Filtrada por localidad |
+| Sede | select_one | ✅ | Filtrada por institución |
+| Fecha | date | ✅ | Día de la visita |
+| Grado observado | select_one | ✅ | prejardín / jardín / transición |
+| Nombre docente | text | ✅ | |
+| Aula / espacio | text | ❌ | Referencia espacial |
+| **Foto 1** | image | ✅ | Panorámica general del aula |
+| **Foto 2** | image | ✅ | Rincón de literatura o lectura |
+| **Foto 3** | image | ✅ | Rincón de juego / manipulativos |
+| **Foto 4** | image | ✅ | Rincón de expresión artística |
+| **Foto 5** | image | ✅ | Rincón de exploración / ciencia |
+| **Foto 6** | image | ✅ | Panel / mural de familia o identidad |
+| **Foto 7** | image | ✅ | Estantería o zona de autónomo acceso |
+| **Foto 8** | image | ✅ | Suelo, ventanas, iluminación y seguridad |
+| Foto 9 (opcional) | image | ❌ | Detalle innovador o buena práctica |
+| Foto 10 (opcional) | image | ❌ | Aspecto a mejorar |
+| Comentarios | text | ❌ | Espacio abierto |
+
+---
+
+## Criterios de calidad de la foto (recomendados)
+
+- **Resolución mínima:** 1280 × 720 px  
+- **Iluminación:** evitar contraluces o sombras densas  
+- **Enfoque:** elementos clave nítidos  
+- **Privacidad:** no mostrar rostros de niñas o niños; enfocar espacios y materiales  
+
+---
+
+## Lógica condicional
+
+- **Sedes** filtradas por **institución** → **localidad**  
+- **Grado** y **fecha** determinan carpeta de almacenamiento en repositorio  
+- **Fotos opcionales** solo se activan si el observador marca *“Sí”* a *“¿Desea agregar fotos adicionales?”* (campo no incluido en versión actual; puede agregarse si se requiere)
+
+---
+
+## Uso técnico
+
+- Compatible con **KoboCollect**, **ODK**, **Enketo**  
+- Tamaño máximo por imagen: configurable (recomendado 2 MB)  
+- **Acceso restringido**: solo personal UWC (enlace interno, no público)  
+
+---
+
+## Archivos asociados
+
+`Fotografía Ambientes de aprendizaje.xlsx`  
+- Hoja `survey` → estructura  
+- Hoja `choices` → listas localidad, instituciones, sedes, grados  
+
+---
+
