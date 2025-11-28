@@ -20,7 +20,7 @@ En este tablero se consolida la situación actual, la evolución y los resultado
 | Capa | Origen | Frecuencia de carga | Descripción |
 |------|--------|--------------------|-------------|
 | **Origen primario** | XLSForm (KoboToolbox) | Diaria (API) | Respuestas brutas de los 4 instrumentos documentados |
-| **Origen secundario** | Datos Abiertos SED | Semanal (CSV publicado) | Matrícula, caracterización IED, geolocalización, jornadas, zonas |
+| **Origen secundario** | Datos Abiertos SED |  (CSV publicado) | caracterización IED, geolocalización, jornadas, zonas |
 | **Transformación** | Power Query (Power BI) | Diaria | Limpieza, estandarización de códigos DANE, cálculo de indicadores |
 | **Modelo** | Star Schema | — | Hechos: respuestas, observaciones, fotos. Dimensiones: tiempo, docente, IED, sede, localidad, grado |
 | **Visualización** | Power BI Service | — | Dashboard interactivo con segmentadores, drill-through y DAX |
@@ -69,14 +69,6 @@ graph TD
 | **Análisis Comparativo** | Tabla dinámica que cruza resultados de los 4 instrumentos por IED | Localidad, zona, rango de puntuación |
 
 
-## Seguridad y actualización
-
-- **Refresco programado:** diario a las 06:00 a. m. (zona Bogotá)  
-- **Certificado SSL** en workspace de Power BI  
-- **Row-Level Security (RLS):** usuarios SED solo ven sus IED asignadas; usuarios UWC ven todo el convenio  
-- **OneDrive Empresarial** como almacén de respaldos de CSV limpios  
-
-
 ## Glosario rápido de campos clave
 
 | Campo en modelo | Origen | Significado |
@@ -86,14 +78,6 @@ graph TD
 | `puntaje_obs` | Calculado | Suma de “Se evidencia” (1) por visita (0-18) |
 | `url_foto` | Kobo | URL pública de imagen almacenada en Kobo (expira 90 días; se replica a SharePoint) |
 | `matricula_total_eo` | SED | Matrícula oficial prejardín + jardín + transición 2025 |
-
----
-
-## Cómo contribuir / ampliar
-
-1. **Nuevo instrumento:** seguir patrón de carpetas `/instrumentos/` y nombres `instrumento-<tema>.xlsx`  
-2. **Actualizar metadatos IED:** sobrescribir `dimIED` en carpeta compartida; el refresco automático propagará cambios  
-3. **Solicitar acceso al workspace:** escribir a [comunicaciones@uwcolombia.org](mailto:comunicaciones@uwcolombia.org) indicando rol (visualización vs. edición)
 
 ---
 
