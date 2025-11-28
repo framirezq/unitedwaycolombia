@@ -1,10 +1,10 @@
 # Instrumento de Caracterización I - Instituciones Educativas Distritales (IED)
 
 **URL del Formulario:** https://ee-eu.kobotoolbox.org/x/q92nmcWE  
-**Formato:** XLSForm (para uso en KoboToolbox, ODK, etc.)  
-**Versión:** 23.3  
-**Formulario XlSForm:** por definir
-**Fecha de creación:** 2025
+**Formato:** XLSForm (para uso en KoboToolbox, ODK, etc.).  
+**Versión:** 23.3.  
+**Formulario XlSForm:** por definir.
+**Fecha de creación:** 2025.
 
 ---
 
