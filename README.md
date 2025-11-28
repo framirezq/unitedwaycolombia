@@ -54,11 +54,12 @@ EJE2_Acompanamiento_Situado/
 │   ├── Ajustes_Pedagogicos/
 │   └── Reportes_Mensuales/
 │
-└── IED/
-    ├── IED_001/
-    ├── IED_002/
+└──LOCALIDAD
+    ├── IED/
+    ├── IED_COD-DANE01/
+    ├── IED_COD-DANE02/
     ├── ...
-    └── IED_095/
+    └── IED_COD-DANE54/
 ```
 
 ### ** EJE 3 – Evaluación de Resultados**
@@ -80,12 +81,12 @@ EJE3_Evaluacion/
 ├── Evaluacion_Final/
 │   ├── Instrumentos_Aplicacion_Final/
 │   ├── Bases_de_Datos_Final/
-│   └── Informes_de_Contraste/
+│   └── Informes_por_IED_Final/
 │
 └── Evidencias/
 ```
 
-### ** Administración del Convenio**
+### Administración del Convenio
 ```
 Administracion_Convenio/
 │   ├── Acta_Inicio/
@@ -95,11 +96,12 @@ Administracion_Convenio/
 │   └── Informes_Gestion/
 ```
 
-### ** Documentación de Referencia**
+### Documentación de Referencia
 ```
 Documentacion/
 │   ├── Anexo_Tecnico.pdf
 │   ├── Plan_Distrital_2024_2027/
+│   ├──Lineamiento Pedagógico y Curricular para la Educación Inicial en el Distrito
 ```
 
 ---
