@@ -64,8 +64,6 @@ SWITCH(
 
 > El umbral se puede ajustar desde el panel de configuración sin tocar el modelo.
 
----
-
 ## Segmentadores globales
 
 - Localidad  
@@ -83,16 +81,6 @@ Acceso y soporte
 | Dataset (editores) | [https://app.powerbi.com/groups/xxxxx/datasets/bbbbb](https://app.powerbi.com/groups/xxxxx/datasets/bbbbb) |
 | Formulario origen (Kobo) | [https://kobo.unitedwaycolombia.org/acompanamiento](https://kobo.unitedwaycolombia.org/acompanamiento) |
 | Soporte técnico | [comunicaciones@uwcolombia.org](mailto:comunicaciones@uwcolombia.org) |
-
----
-
-## 10. Próximos pasos
-
-1. Automatizar alertas por correo cuando una IED pase a estado “crítico” ≥ 3 días  
-2. Incorporar **meta semanal** dinámica (pro-rrateo de la anual) para visualizar desviación en tiempo real  
-3. Publicar versión pública (sin RLS) con agregados por localidad para la SED  
-
----
 
 > **Nota:** esta documentación se mantiene en `/docs/tablero-gestion-acompanamiento.md` del repositorio oficial y se versiona con cada cambio significativo del modelo.
 ```
