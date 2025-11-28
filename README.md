@@ -1,18 +1,14 @@
-# Unitedwaycolombia
-
 # Convenio para el Fortalecimiento de la Educación Inicial en Instituciones Educativas Distritales de Bogotá
 
 ## Descripción General
 Este repositorio técnico documenta el desarrollo, implementación y seguimiento del Convenio para la Cualificación y Fortalecimiento Institucional en Educación Inicial, suscrito entre:
-
 - **Secretaría de Educación del Distrito (SED)**
 - **Secretaría Distrital de Integración Social (SDIS)**
 - **United Way Colombia**
 
-Su propósito es asegurar la sistematización, trazabilidad y archivo programático de todos los productos, actividades y evidencias, en cumplimiento del "Sistema Distrital de Aseguramiento de la Calidad de la Atención Integral a la Primera Infancia".
+Su propósito es asegurar la sistematización, trazabilidad y archivo programático de todos los productos, actividades y evidencias, en cumplimiento del Sistema Distrital de Aseguramiento de la Calidad de la Atención Integral a la Primera Infancia.
 
 Este repositorio se organiza según los tres ejes misionales del convenio: 
-
 1. Construcción de lineamientos, orientaciones y guías técnicas. 
 2. Acompañamiento situado a las IED focalizadas. 
 3. Evaluación de resultados.
@@ -22,7 +18,7 @@ Este repositorio se organiza según los tres ejes misionales del convenio:
 ## Estructura del Repositorio
 La organización del repositorio sigue criterios de trazabilidad técnica, archivo programático, gestión del conocimiento y control de versiones.
 
-### EJE 1 – Lineamientos, Orientaciones y Guías Técnicas
+### ** EJE 1 – Lineamientos, Orientaciones y Guías Técnicas**
 Incluye todos los documentos técnicos asociados al diseño del esquema de calidad, los lineamientos, las guías y el material pedagógico asociado.
 
 ```
@@ -39,7 +35,7 @@ EJE1_Lineamientos_Guias/
 └── Versionamiento/
 ```
 
-### EJE 2 – Acompañamiento Situado
+### ** EJE 2 – Acompañamiento Situado**
 Documentación del trabajo en territorio con las IED, caracterizaciones, rutas metodológicas, informes mensuales y seguimiento.
 
 ```
@@ -59,10 +55,10 @@ EJE2_Acompanamiento_Situado/
 │   └── Reportes_Mensuales/
 │
 └── IED/
-    ├── IED_CODDANE/
-    ├── IED_CODDANE/
+    ├── IED_001/
+    ├── IED_002/
     ├── ...
-    └── IED_CODDANE/
+    └── IED_095/
 ```
 
 ### ** EJE 3 – Evaluación de Resultados**
@@ -103,17 +99,57 @@ Administracion_Convenio/
 ```
 Documentacion/
 │   ├── Anexo_Tecnico.pdf
-│   ├── Marco_Normativo/
-│   ├── 
-│   └── 
+│   ├── Plan_Distrital_2024_2027/
 ```
 
 ---
 
-## Protocolo de Versionamiento
-Todos los documentos registran su evolución usando la siguiente convención:
+##  Protocolo de Versionamiento
+Todos los documentos deben registrar su evolución usando la siguiente convención:
 
 ```
 NombreDocumento_V1_YYYY-MM-DD.ext
 NombreDocumento_V2_ObservacionesSED.ext
-NombreDocumento_VF
+NombreDocumento_VF_YYYY-MM-DD.pdf
+```
+---
+
+##  Objetivos del Repositorio
+- Garantizar trazabilidad técnica y administrativa del convenio. 
+- Registrar productos exigidos en el Anexo Técnico. 
+- Mantener orden, claridad y acceso seguro a la información. 
+- Servir como archivo programático auditable. 
+- Facilitar la toma de decisiones basadas en evidencia.
+- Ser una herramienta sostenible 
+
+##  Roles y Responsabilidades
+### Equipo Técnico del Convenio
+- Producción de documentos técnicos.
+- Acompañamiento situado a las IED.
+- Evaluación y generación de indicadores.
+- Reporte mensual y documentación permanente.
+
+### Administradores del Repositorio
+- Control de versiones.
+- Revisión y aprobación de PR.
+- Organización del archivo programático.
+- Protección de datos.
+
+---
+
+##  Metodologías Transversales
+Este repositorio se conecta con procesos de:
+- MEAL: Monitoreo, Evaluación, Aprendizaje y Rendición de Cuentas.
+- Archivo Programático en SharePoint.
+- Reporte técnico-administrativo para SED y SDIS.
+- Gestión del conocimiento para la sostenibilidad.
+
+---
+
+## © Licencia y Uso
+Este repositorio es de uso técnico interno para la ejecución del convenio y no está autorizado para distribución pública sin aprobación de la United Way Colombia.
+
+---
+
+## Estado del Repositorio
+**Activos y actualizándose 27/11/25**
