@@ -4,16 +4,12 @@
 **Frecuencia de actualización:** diaria (API Kobo → Power BI)  
 **Última actualización:** 27/11/2025  
 **URL:** https://app.powerbi.com/view?r=eyJrIjoiYTEzZjY1ZDgtZTQ5My00NTI1LWI4YTAtMmIyZTk4YjhlYWVkIiwidCI6Ijk4YzUyOTJjLTZmODUtNDU2NS04YWNlLTk2OWRhZGE3ODgwOCIsImMiOjR9
----
+
+<img width="776" height="440" alt="image" src="https://github.com/user-attachments/assets/9ce4b068-689c-44ef-b578-c3c68cc6ceca" />
 
 
+Este tablero monitorear en tiempo real la ejecución física del acompañamiento situado que pedagógos y artistas de United Way realizan con los maestros de prejardín, jardín y transición de las IED del convenio, detectando desviaciones, oportunidades de intervención y necesidades de apoyo.
 
-## 1. Objetivo
-Monitorear en tiempo real la **ejecución física del acompañamiento situado** que pedagógos y artistas de United Way realizan en las aulas de prejardín, jardín y transición de las IED del convenio, detectando desviaciones, oportunidades de intervención y necesidades de apoyo.
-
----
-
-## 2. Fuentes de datos
 
 | Origen | Dataset en Power BI | Llave principal | Frecuencia |
 |--------|---------------------|-----------------|------------|
@@ -21,9 +17,7 @@ Monitorear en tiempo real la **ejecución física del acompañamiento situado** 
 | **Catálogo de IED y nodos** (SharePoint) | `dimIED` | `cod_dane_ied` | Semanal |
 | **Catálogo de profesionales UWC** (SharePoint) | `dimProfesional` | `email_profesional` | Semanal |
 
----
-
-## 3. Definiciones operativas
+## Definiciones operativas
 
 | Concepto | Cálculo | Descripción |
 |----------|---------|-------------|
@@ -33,9 +27,7 @@ Monitorear en tiempo real la **ejecución física del acompañamiento situado** 
 | **Diferencia** | `planeados - reportados` | Número de aulas pendientes por visitar |
 | **Estado IED** | Regla segmentada (ver punto 6) | Clasificación visual: crítico, alerta, desarrollo, completo |
 
----
-
-## 4. KPIs principales (página resumen)
+## KPIs principales (página resumen)
 
 | KPI | Valor actual (27/11/2025) | Fórmula DAX |
 |-----|---------------------------|-------------|
@@ -46,9 +38,7 @@ Monitorear en tiempo real la **ejecución física del acompañamiento situado** 
 | IEDs en estado “completo” | 27 | `COUNTROWS(FILTER(dimIED, estado = "completo"))` |
 | IEDs en estado “crítico” | 6 | `COUNTROWS(FILTER(dimIED, estado = "crítico"))` |
 
----
-
-## 5. Vistas y gráficos
+## Vistas y gráficos
 
 | Vista | Gráfico / tabla | Uso |
 |-------|-----------------|-----|
@@ -57,11 +47,9 @@ Monitorear en tiempo real la **ejecución física del acompañamiento situado** 
 | **Mapa de calor por IED** | Scatter % realizado vs. % faltante, coloreado por estado | Detectar IEDs rezagadas |
 | **Evolución mensual** | Líneas de reportados vs. planeados acumulados | Ver tendencia y proyección de cierre |
 | **Análisis por Nodo** | Barras apiladas de realizado/faltante por nodo | Distribución geográfica del esfuerzo |
-| **Detalle de aulas** | Tabla filtrable: IED, sede, grado, fecha, componente, línea, momento | Auditoría y seguimiento de calidad |
+| **Detalle de maestro** | Tabla filtrable: IED, sede, grado, fecha, componente, línea, momento | Auditoría y seguimiento de calidad |
 
----
-
-## 6. Reglas de estado de IED (medida calculada)
+## Reglas de estado de IED (medida calculada)
 
 ```dax
 estado IED =
@@ -78,7 +66,7 @@ SWITCH(
 
 ---
 
-## 7. Segmentadores globales
+## Segmentadores globales
 
 - Localidad  
 - Nodo  
@@ -87,18 +75,7 @@ SWITCH(
 - Grado (prejardín / jardín / transición)  
 - Estado IED  
 
----
-
-## 8. Actualización y seguridad
-
-- **Refresco:** diario 06:00 a.m. vía Power Automate (Kobo → SharePoint → Power BI)  
-- **RLS:** cada profesional solo ve sus propios registros; coordinadores ven todo el nodo  
-- **Certificado SSL y MFA** habilitados en el workspace  
-- **Histórico:** se conservan todas las versiones del CSV en `/raw/acompañamiento/` con timestamp
-
----
-
-## 9. Acceso y soporte
+Acceso y soporte
 
 | Recurso | URL / contacto |
 |---------|----------------|
