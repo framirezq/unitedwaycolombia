@@ -1,4 +1,5 @@
-# unitedwaycolombia
+# Unitedwaycolombia
+
 # Convenio para el Fortalecimiento de la Educación Inicial en Instituciones Educativas Distritales de Bogotá
 
 ## Descripción General
@@ -21,7 +22,7 @@ Este repositorio se organiza según los tres ejes misionales del convenio:
 ## Estructura del Repositorio
 La organización del repositorio sigue criterios de trazabilidad técnica, archivo programático, gestión del conocimiento y control de versiones.
 
-### ** EJE 1 – Lineamientos, Orientaciones y Guías Técnicas**
+### EJE 1 – Lineamientos, Orientaciones y Guías Técnicas
 Incluye todos los documentos técnicos asociados al diseño del esquema de calidad, los lineamientos, las guías y el material pedagógico asociado.
 
 ```
@@ -38,7 +39,7 @@ EJE1_Lineamientos_Guias/
 └── Versionamiento/
 ```
 
-### ** EJE 2 – Acompañamiento Situado**
+### EJE 2 – Acompañamiento Situado
 Documentación del trabajo en territorio con las IED, caracterizaciones, rutas metodológicas, informes mensuales y seguimiento.
 
 ```
