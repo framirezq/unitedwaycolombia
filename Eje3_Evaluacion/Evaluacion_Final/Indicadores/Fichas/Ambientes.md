@@ -1,7 +1,6 @@
-# CONVENIO INTERADMINISTRATIVO SED – SDIS – UNITED WAY COLOMBIA
-## Aseguramiento de la calidad de la educación inicial – Vigencia 2025
 
-# Ficha Técnica Indicador
+
+# Ficha Técnica Indicadores Ambientes Pedagogicos
 
 ## Tabla con descriptivos del indicador
 
