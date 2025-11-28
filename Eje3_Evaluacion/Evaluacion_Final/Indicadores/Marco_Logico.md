@@ -39,7 +39,7 @@
 
 ---
 
-## Tabla de Ambientes Educativos
+## Tabla de Ambientes Pedagogicos
 
 | Código | Objetivos | Indicadores | Instrumento | Cálculo | Comentario |
 |--------|-----------|-------------|-------------|---------|------------|
