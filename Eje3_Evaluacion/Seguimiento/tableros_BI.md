@@ -4,7 +4,7 @@
 **Ámbito:** Convenio United Way Colombia – Secretaría de Educación Distrital (SED)  
 **Versión documentada:** 8.0  
 **URL:** https://app.powerbi.com/view?r=eyJrIjoiNzMwYWY3MjEtYTQ1OS00YTUxLWFlODAtZWMwMDQyYmJiZjBmIiwidCI6Ijk4YzUyOTJjLTZmODUtNDU2NS04YWNlLTk2OWRhZGE3ODgwOCIsImMiOjR9
----
+
 
 <img width="858" height="484" alt="image" src="https://github.com/user-attachments/assets/cfe68073-a893-4fe1-a24b-4fa7e85c6167" />
 
