@@ -1,4 +1,4 @@
-# Estrategia de Fortalecimiento a la Educación Inicial
+# Marco Logico 
 
 ## Tabla de Planificación y Seguimiento
 
@@ -13,16 +13,16 @@
 
 ---
 
-## Descripción de los Componentes
+## Tabla de Valoración y Seguimiento al Desarrollo Infantil
 
-### Códigos de Identificación
-- **PLAN-O1-XX**: Estrategias de fortalecimiento pedagógico
-- **PLAN-O2-XX**: Orientación técnica a IED y aliados  
-- **PLAN-O3-XX**: Lineamiento técnico en planeación pedagógica
+| Código | Actividades: Objetivo | Indicadores | Instrumento | Cálculo | Comentario |
+|--------|----------------------|-------------|-------------|---------|------------|
+| **VAL-SEGUI-O1-01** | Realizar una caracterización detallada de los procesos de valoración y seguimiento al desarrollo infantil en las Instituciones Educativas Distritales e identificar la relación directa que tienen con los procesos de aprendizaje. | Porcentaje total de instituciones educativas acompañadas que realizan procesos de valoración y seguimiento al desarrollo infantil de forma sistemática y documentada. | formulario acompañamiento situado | `(n instituciones acompañadas / n instituciones evidenciadas en acompañamiento situado con instrumentos de valoración) × 100` | |
+| **VAL-SEGUI-O1-02** | | Promedio de valoraciones y seguimientos realizados por institución educativa, acompañada, al año. | formulario de valoración/matriz de gestión | `sumatoria de n maestros acompañados en valoración al desarrollo en institución educativa / n maestros acompañados` | En el cálculo se debe dividir en conjuntos separados los años de la intervención |
+| **VAL-SEGUI-O1-03** | | Porcentaje de instituciones educativas acompañadas que cumplen con al menos el 80% de los criterios establecidos en la línea técnica para la valoración y seguimiento del desarrollo infantil. | formulario de valoración | `(sumatoria de instituciones educativas (x̄ de maestros acompañados en cada institución educativa ≥80% en el formulario de valoración) / n instituciones educativas) × 100` | |
+| **VAL-SEGUI-O2-01** | Implementar acciones de fortalecimiento en los procesos de valoración y seguimiento al desarrollo infantil, con base en las guías, orientaciones y referentes disponibles. | Porcentaje de instituciones educativas que participaron en procesos de fortalecimiento, relacionados con la valoración y seguimiento al desarrollo infantil. | matriz de gestión | `(sumatoria de instituciones educativas acompañadas en valoración al desarrollo / n instituciones educativas) × 100` | |
+| **VAL-SEGUI-O2-02** | | Porcentaje de maestras y talento humano de cada institución que participaron en los procesos de fortalecimiento de valoración y seguimiento al desarrollo infantil. | matriz de gestión | `(sumatoria de maestros acompañados en valoración al desarrollo / n instituciones educativas) × 100` | |
+| **VAL-SEGUI-O2-03** | | Proporción de elementos del proceso de valoración y seguimiento al desarrollo infantil, fortalecidos por las Instituciones Educativas Distritales acompañadas | formulario de valoración | `# de elementos fortalecidos en el acompañamiento / p elementos posibles por fortalecer` | ¿Qué elementos del seguimiento se han fortalecido sobre los posibles por fortalecer? |
+| **VAL-SEGUI-ADP-03-01** | Socializar en las Instituciones Educativas Distritales, la propuesta de Aprendizajes y Desarrollos Priorizados (ADP) y propender porque estos hagan parte esencial de la planeación pedagógica y de los procesos de observación, valoración y seguimiento al desarrollo infantil. | Porcentaje de maestras y talento humano de las Instituciones Educativas Distritales acompañadas que participaron de los espacios de socialización de la propuesta de Aprendizajes y Desarrollos Esperados. | solicitud de IED para socialización, Acta | `(sumatoria de maestros acompañados en valoración al desarrollo que les fue socializados ADPs / n maestros acompañados en valoración al desarrollo) × 100` | Socializar con SED el conjunto de información, en el formulario debe ingresarse la sesión donde se socializaron los ADPs |
 
-### Instrumentos de Evaluación
-- **Observación en Aula**: Evaluación directa de las prácticas pedagógicas en el contexto educativo
-- **Formulario acompañamiento situado**: Herramienta para el seguimiento y evaluación del proceso de acompañamiento
-
-### Métricas de Seguimiento
-Todos los indicadores utilizan fórmulas porcentuales para medir el avance y la efectividad de las estrategias implementadas, excepto PLAN-O3-02 que requiere una evaluación cualitativa específica.
+---
