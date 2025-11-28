@@ -94,8 +94,8 @@ El formulario incluye un consentimiento informado que autoriza el tratamiento de
 # Instrumento de Caracterización de los Procesos de Valoración y Seguimiento al Desarrollo Infantil
 
 **URL:** https://ee-eu.kobotoolbox.org/x/LIfIkPIR 
-**Formato:** XLSForm (para uso en KoboToolbox, ODK).  
-**Versión:** 21.0.  
+**Formato:** XLSForm (para uso en KoboToolbox, ODK).
+**Versión:** 21.0.
 **Formulario XlSForm:** por definir.
 **Fecha de creación:** 2025.
 
