@@ -1,18 +1,18 @@
-# 📋 Instrumento de Caracterización I - Instituciones Educativas Distritales (IED)
+# Instrumento de Caracterización I - Instituciones Educativas Distritales (IED)
 
-**Proyecto:** Fortalecimiento a docentes de educación inicial en colegios distritales de Bogotá  
+**URL del Formulario:** https://ee-eu.kobotoolbox.org/x/q92nmcWE  
 **Formato:** XLSForm (para uso en KoboToolbox, ODK, etc.)  
-**Versión:** 1.0  
+**Versión:** 23.3  
 **Fecha de creación:** 2025
 
 ---
 
-## 🎯 Objetivo del instrumento
-Recopilar información clave sobre las **características de los docentes**, **la infraestructura educativa**, y **la cantidad de estudiantes** en los niveles de **prejardín, preescolar y transición** en las Instituciones Educativas Distritales de Bogotá.
+## Objetivo del instrumento
+Recopilar información clave sobre las características de los maestros y las IEDs, en los niveles de prejardín, preescolar y transición en las Instituciones Educativas Distritales de Bogotá.
 
 ---
 
-## 🧩 Estructura del formulario
+## Estructura del formulario
 
 | Grupo | Nombre del grupo | Descripción |
 |-------|------------------|-------------|
@@ -21,7 +21,7 @@ Recopilar información clave sobre las **características de los docentes**, **l
 
 ---
 
-## 🧾 Resumen técnico del instrumento
+## Resumen técnico del instrumento
 
 | Elemento | Cantidad |
 |----------|----------|
@@ -34,7 +34,7 @@ Recopilar información clave sobre las **características de los docentes**, **l
 
 ---
 
-## 🧮 Tipos de variables
+## Tipos de variables
 
 | Tipo de variable | Nombre de la variable | Tipo de campo | Opciones / Valores | Obligatoria |
 |------------------|------------------------|----------------|---------------------|-------------|
@@ -62,7 +62,7 @@ Recopilar información clave sobre las **características de los docentes**, **l
 
 ---
 
-## 🔍 Condicionales (lógica de relevancia)
+## Condicionales (lógica de relevancia)
 
 - Las **sedes educativas** se filtran según la **institución educativa** seleccionada.
 - Las **instituciones educativas** se filtran según la **localidad**.
@@ -70,14 +70,14 @@ Recopilar información clave sobre las **características de los docentes**, **l
 
 ---
 
-## 📂 Archivos asociados
+## Archivos asociados
 - `Encuesta de caracterizacion I instituciones Educativas Distritales.xlsx`
   - Hoja: `survey` → estructura del formulario
   - Hoja: `choices` → listas de opciones
 
 ---
 
-## 🧑‍💻 Uso técnico
+## Uso técnico
 Este instrumento está diseñado para ser implementado en plataformas compatibles con **XLSForm** como:
 - KoboToolbox
 - ODK Collect
@@ -85,12 +85,8 @@ Este instrumento está diseñado para ser implementado en plataformas compatible
 
 ---
 
-## 🧾 Licencia y tratamiento de datos
-El formulario incluye un **consentimiento informado** que autoriza el tratamiento de datos personales e imagen para fines estadísticos, académicos e institucionales, conforme a la normativa colombiana de protección de datos personales.
+## Licencia y tratamiento de datos
+El formulario incluye un consentimiento informado que autoriza el tratamiento de datos personales e imagen para fines estadísticos, académicos e institucionales, conforme a la normativa colombiana de protección de datos personales.
 
 ---
-
-## 📬 Contacto
-Para dudas técnicas o metodológicas sobre el instrumento:  
-📧 [comunicaciones@uwcolombia.org](mailto:comunicaciones@uwcolombia.org)
 
