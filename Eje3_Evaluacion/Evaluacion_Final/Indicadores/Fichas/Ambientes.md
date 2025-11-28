@@ -1,4 +1,6 @@
 # Ficha Técnica Indicadores Ambientes Pedagogicos
+---
+## AMB-O1-02
 ## Tabla con descriptivos del indicador
 | Campo | Descripción |
 |-------|-------------|
