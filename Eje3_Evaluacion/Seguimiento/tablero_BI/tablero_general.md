@@ -81,7 +81,7 @@ graph TD
 
 ---
 
-## 9. Enlaces directos (solo usuarios autorizados)
+## Enlaces directos (solo usuarios autorizados)
 
 | Recurso | URL |
 |---------|-----|
