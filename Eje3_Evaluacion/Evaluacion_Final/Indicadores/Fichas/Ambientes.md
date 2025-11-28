@@ -1,4 +1,3 @@
-```
 # CONVENIO INTERADMINISTRATIVO SED – SDIS – UNITED WAY COLOMBIA
 ## Aseguramiento de la calidad de la educación inicial – Vigencia 2025
 
@@ -76,4 +75,4 @@ De Resultado, información de tipo Cuantitativa
 
 - Formato Ambientes de aprendizaje
 - Observación en aula
-```
+
