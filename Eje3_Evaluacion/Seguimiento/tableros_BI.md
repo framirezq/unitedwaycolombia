@@ -7,17 +7,13 @@ Tablero General
 
 <img width="858" height="484" alt="image" src="https://github.com/user-attachments/assets/cfe68073-a893-4fe1-a24b-4fa7e85c6167" />
 
+En este tablero se consolida la situación actual, la evolución y los resultados clave del proyecto de fortalecimiento pedagógico en prejardín, jardín y transición de las IED suscritas al convenio, integrando:
 
-## 1. Objetivo del tablero
-Consolidar en un único espacio **la situación actual, la evolución y los resultados clave** del proyecto de fortalecimiento pedagógico en prejardín, jardín y transición de las **IED suscritas al convenio**, integrando:
+- Datos capturados directamente en los instrumentos (XLSForm → KoboToolbox → Power BI)  
+- Información en el proyecto datos abiertos gov. de la SED (matrícula, caracterización IED, ubicación, jornadas, etc.)  
+- Indicadores de rendimiento actualizables en tiempo real  
 
-- Datos capturados **directamente en los instrumentos** (XLSForm → KoboToolbox → Power BI)  
-- Información **abierta de la SED** (matrícula, caracterización IED, ubicación, jornadas, etc.)  
-- Indicadores de **rendimiento**, **cobertura** y **calidad pedagógica** actualizables en tiempo real  
-
----
-
-## 2. Arquitectura de datos
+## Arquitectura de datos
 
 | Capa | Origen | Frecuencia de carga | Descripción |
 |------|--------|--------------------|-------------|
@@ -27,9 +23,7 @@ Consolidar en un único espacio **la situación actual, la evolución y los resu
 | **Modelo** | Star Schema | — | Hechos: respuestas, observaciones, fotos. Dimensiones: tiempo, docente, IED, sede, localidad, grado |
 | **Visualización** | Power BI Service | — | Dashboard interactivo con segmentadores, drill-through y DAX |
 
----
-
-## 3. Fuentes detalladas y relaciones
+## Fuentes detalladas y relaciones
 
 ```mermaid
 graph TD
@@ -49,7 +43,7 @@ graph TD
 
 ---
 
-## 4. Indicadores clave (KPIs visibles en página principal)
+## Indicadores clave (KPIs visibles en página principal)
 
 | Indicador | Fórmula DAX resumida | Interpretación |
 |-----------|----------------------|----------------|
@@ -61,7 +55,7 @@ graph TD
 
 ---
 
-## 5. Vistas y páginas del tablero
+## Vistas y páginas del tablero
 
 | Página | Función principal | Segmentadores globales |
 |--------|-------------------|------------------------|
@@ -72,18 +66,16 @@ graph TD
 | **Evidencias Visuales** | Galería dinámica de fotos con filtro por IED y fecha | Código DANE, grado, tipo de rincón |
 | **Análisis Comparativo** | Tabla dinámica que cruza resultados de los 4 instrumentos por IED | Localidad, zona, rango de puntuación |
 
----
 
-## 6. Seguridad y actualización
+## Seguridad y actualización
 
 - **Refresco programado:** diario a las 06:00 a. m. (zona Bogotá)  
 - **Certificado SSL** en workspace de Power BI  
 - **Row-Level Security (RLS):** usuarios SED solo ven sus IED asignadas; usuarios UWC ven todo el convenio  
 - **OneDrive Empresarial** como almacén de respaldos de CSV limpios  
 
----
 
-## 7. Glosario rápido de campos clave
+## Glosario rápido de campos clave
 
 | Campo en modelo | Origen | Significado |
 |-----------------|--------|-------------|
@@ -95,7 +87,7 @@ graph TD
 
 ---
 
-## 8. Cómo contribuir / ampliar
+## Cómo contribuir / ampliar
 
 1. **Nuevo instrumento:** seguir patrón de carpetas `/instrumentos/` y nombres `instrumento-<tema>.xlsx`  
 2. **Actualizar metadatos IED:** sobrescribir `dimIED` en carpeta compartida; el refresco automático propagará cambios  
