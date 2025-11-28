@@ -8,6 +8,7 @@
 
 <img width="858" height="484" alt="image" src="https://github.com/user-attachments/assets/cfe68073-a893-4fe1-a24b-4fa7e85c6167" />
 
+---
 En este tablero se consolida la situación actual, la evolución y los resultados clave del proyecto de fortalecimiento pedagógico en prejardín, jardín y transición de las IED suscritas al convenio, integrando:
 
 - Datos capturados directamente en los instrumentos (XLSForm → KoboToolbox → Power BI)  
